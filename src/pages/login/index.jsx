@@ -30,6 +30,7 @@ export default function Login({ setLogado }) {
     await apiRequest
       .post("/login", user)
       .then((response) => {
+        console.log(response)
         setLogado(true)
         navigate("/")
       })
