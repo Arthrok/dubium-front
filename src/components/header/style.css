@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 81px;
+  background-color: #201F25;
+  box-shadow: 0 4px 2px -2px gray;
+  position: fixed;
+  color: #ffffff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo {
+  margin-left: 0.5rem;
+  height: 4rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.item a:hover {
+  transition: 0.5s;
+  color: #2476aa;
+}
+
+.pesquisa {
+  width: 25%;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#iconePesquisa{
+  padding: 0.24rem;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#iconePesquisa svg {
+  color: #201F25;
+  padding-left: 3px;
+}
+
+#busca {
+  font-size: 13px;
+  background-color: #201F25;
+  padding: 2px;
+  width: 95%;
+  height: 25px;
+  color: #ffffff;
+  border: #ffffff solid 2px;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.header-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 13%;
+}
+
+.login-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bichinho {
+  width: 10%;
+  height: 80%;
+}

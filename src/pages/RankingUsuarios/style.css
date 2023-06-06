@@ -1,0 +1,30 @@
+.ranking-usuario {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.usuario-ranqueado {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #fafafa;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.usuario-ranqueado:hover {
+  background-color: #eeeeee;
+}
+
+.ru-favorito {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}

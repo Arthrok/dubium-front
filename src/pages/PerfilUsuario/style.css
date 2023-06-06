@@ -1,0 +1,138 @@
+.usuario-selecionado {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f5f5f5;
+  width: 20%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.usuario-selecionado-informacao {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.usuario-interacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.usuario-interacao:hover {
+  background-color: #eeeeee;
+}
+
+.pu-perfil {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+
+.pu-perfil-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pu-container {
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.perfil-usuario {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #201F25;
+  border: #000 solid ;
+  width: 50%;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.button-salvos {
+  background-color: #0f5986;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.pu-informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: black solid 1px;
+  background-color: #000;
+  color: #01C4A6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pc-titulo{
+  color: #ffffff;
+}
+
+.pu-item-informacao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pu-interecoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pu-excluir {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  background-color: #075889;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.pu-editar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  background-color: #01C4A6;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.buttonChat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  background-color: #01C4A6;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.pu-opcoes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
