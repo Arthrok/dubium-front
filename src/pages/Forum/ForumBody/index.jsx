@@ -1,5 +1,5 @@
 import "./style.css";
-
+import Cookies from "js-cookie";
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -18,6 +18,10 @@ apiRequest.defaults.withCredentials = true
 export default function ForumBody({ materiaPesquisada }) {
   const [allQuest, setAllQuest] = useState([]);
   const { elementoSidebar } = useContext(SidebarContext);
+  useEffect(() => {
+    const token = Cookies.get("jwt");
+    console.log(token)
+  }, [])
 
   useEffect(() => {
     function getPerguntas() {
