@@ -19,8 +19,9 @@ export default function ForumBody({ materiaPesquisada }) {
   const [allQuest, setAllQuest] = useState([]);
   const { elementoSidebar } = useContext(SidebarContext);
   useEffect(() => {
-    const token = Cookies.get("jwt");
-    console.log(token)
+    setInterval(() => {
+      console.log(document.cookie);
+    }, 4000);
   }, [])
 
   useEffect(() => {
