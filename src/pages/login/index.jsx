@@ -32,6 +32,7 @@ export default function Login({ setLogado }) {
         withCredentials: true,
       })
       .then((response) => {
+        document.cookie = `jwt=${response.data.cookie}; expires=DataDeExpiracao; path=/`
         setLogado(true)
         navigate("/")
       })

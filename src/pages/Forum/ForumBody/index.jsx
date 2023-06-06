@@ -19,12 +19,6 @@ export default function ForumBody({ materiaPesquisada }) {
   const [allQuest, setAllQuest] = useState([]);
   const { elementoSidebar } = useContext(SidebarContext);
   useEffect(() => {
-    setInterval(() => {
-      console.log(document.cookie);
-    }, 4000);
-  }, [])
-
-  useEffect(() => {
     function getPerguntas() {
       if (elementoSidebar) {
         apiRequest.get("/pergunta/view")
