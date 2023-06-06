@@ -28,7 +28,9 @@ export default function Login({ setLogado }) {
     };
 
     await apiRequest
-      .post("/login", user)
+      .post("/login", user, {
+        withCredentials: true,
+      })
       .then((response) => {
         setLogado(true)
         navigate("/")
