@@ -31,7 +31,7 @@ export default function ChatPrincipal({ setLogado }) {
 
   useEffect(() => {
     setToken(document.cookie.replace(/(?:(?:^|.*;\s*)jwt\s*\=\s*([^;]*).*$)|^.*$/, '$1'))
-    setSocket(io('https://dubium-back.vercel.app'));
+    setSocket(io('https://dubium-back-10apg1bp4-arthrok.vercel.app'));
   }, [])
 
   useEffect(() => {
