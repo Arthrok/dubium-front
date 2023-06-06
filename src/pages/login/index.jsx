@@ -31,8 +31,8 @@ export default function Login({ setLogado }) {
       .post("/login", user)
       .then((response) => {
         console.log(response)
-        setLogado(true)
-        navigate("/")
+        // setLogado(true)
+        // navigate("/")
       })
       .catch((err) => {
         console.log(err.message);
